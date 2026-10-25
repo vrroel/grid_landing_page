@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Grid landing page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(240, 14%, 99%);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <p class="brand_logo">Bridge Collective</p>
+      <div class="header_menu_icons">
+        <img class="menu_icon_open" src="assets/images/icon-menu.svg" alt="" />
+        <img class="menu_icon_close close" src="./assets/images/icon-close.svg" alt="" />
+      </div>
+    </div>
+  </header>
+  <!-- Nav -->
+  <nav class="nav_container close container">
+    <ul class="nav_menu">
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">About</a>
+      </li>
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">Our Work</a>
+      </li>
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">Parthners</a>
+      </li>
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">Annual Report</a>
+      </li>
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">Donate</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="grid-container">
+    <!-- Hero -->
+    <section class="hero to_overlay">
+      <div class="container">
+        <h1 class="hero_title">A classroom for every child.</h1>
+        <p class="hero_text">
+          We fund the schools, train the teachers, and measure what works — so
+          every child we reach today becomes a graduate tomorrow.
+        </p>
+      </div>
+    </section>
+
+    <main class="main_section to_overlay">
+      <!-- Stats -->
+      <ul class="stats">
+        <li class="stats_item container">
+          <div class="stat_value_wrapper">
+            <img class="stat_icon" src="./assets/images/icon-sparkle.svg" alt="" />
+            <span class="stat_number">2.4M</span>
+          </div>
+          <div class="stat_details">
+            <h2>Students reached</h2>
+            <p>Across 31 countries since 2011.</p>
+          </div>
+        </li>
+
+        <li class="stats_item container">
+          <div class="stat_value_wrapper">
+            <img class="stat_icon" src="./assets/images/icon-plus.svg" alt="" />
+            <span class="stat_number">1,284</span>
+          </div>
+          <div class="stat_details">
+            <h2>Schools partnered</h2>
+            <p>In 14 countries, from Kenya to Guatemala.</p>
+          </div>
+        </li>
+
+        <li class="stats_item container">
+          <div class="stat_value_wrapper">
+            <img class="stat_icon" src="./assets/images/icon-arrow-right.svg" alt="" />
+            <span class="stat_number">38K</span>
+          </div>
+          <div class="stat_details">
+            <h2>Teachers trained</h2>
+            <p>Equipped with modern tools and methodology.</p>
+          </div>
+        </li>
+
+        <li class="stats_item container">
+          <div class="stat_value_wrapper">
+            <img class="stat_icon" src="./assets/images/icon-trending-up.svg" alt="" />
+            <span class="stat_number">3.1×</span>
+          </div>
+          <div class="stat_details">
+            <h2>Graduation lift</h2>
+            <p>Partner schools outperform national averages 3x.</p>
+          </div>
+        </li>
+      </ul>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer container to_overlay">
+    <p class="footer_info">© 2026 Bridge Collective</p>
+    <p class="footer_info">Registered charity 12345678</p>
+  </footer>
+
+  <!-- Menu panel — hidden until the hamburger is activated -->
+  <!-- About
+  Our Work
+  Partners
+  Annual Report
+  Donate -->
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by
+    <a href="https://vrroel.github.io/frontend_mentor_hub/">Alexis Villarroel</a>.
+  </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
