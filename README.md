@@ -18,9 +18,9 @@ This is a solution to the [Grid landing page challenge on Frontend Mentor](https
 ### Screenshot
 
 ![](./screenshots/mobile.PNG)
-![](./screenshots/mobile_menu.PNG)
+<!-- ![](./screenshots/mobile_menu.PNG) -->
 ![](./screenshots/desktop.PNG)
-![](./screenshots/desktop_menu.PNg)
+<!-- ![](./screenshots/desktop_menu.PNg) -->
 
 
 
